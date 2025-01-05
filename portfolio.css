@@ -1,0 +1,410 @@
+body {
+    background: linear-gradient(to right, #080f1f, #173a5e, #080f1f);
+    font-family: Arial;
+    font-style: oblique;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    border: 5px solid;
+    border-image: linear-gradient(45deg, red, green, yellow, purple, blue, red)1;
+    animation: changecolor 3s infinite linear;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    animation: rotate 3s linear infinite;
+}
+
+h2 {
+    box-shadow: 0 0 50px #1e90ff;
+    border-radius: 50%;
+    animation: backgroundcolor 3s infinite linear;
+}
+
+h3 {
+    border: 1px solid #1e90ff;
+    animation: blink 3s alternate infinite;
+}
+
+button {
+    background-color: #1e90ff;
+    color: #f0f0f0;
+    border: 2px solid #173a5e;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 0 20px #1e90ff;
+    animation: blink 3s alternate infinite;
+}
+
+button:hover {
+    animation: backgroundcolor 3s infinite linear;
+}
+
+header {
+    padding: 20px 0;
+    border: 2px solid;
+    border-image: linear-gradient(45deg, red, green, yellow, purple, blue, red)1;
+    animation: changecolor 2s infinite linear;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #f0f0f0;
+    box-shadow: 0 0 10px #1e90ff;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #1e90ff;
+    padding: 5px;
+    box-shadow: 0 0 50px #1e90ff;
+    animation: blink 3s alternate infinite;
+    box-shadow: 0 0 50px #1e90ff;
+}
+
+header nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+header nav ul li:hover {
+    animation: backgroundcolor 3s infinite linear;
+}
+
+#menu-button {
+    display: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 60px 0;
+    text-align: center;
+    display: flex;
+}
+
+#home {
+    text-align: center;
+    display: flex;
+}
+
+#education-p1 {
+    display: none;
+}
+
+#extendhome-p1,
+#extendabout-p1,
+#extendexperience-p1 {
+    display: none;
+}
+
+#home img {
+    width: 50%;
+    height: 55vh;
+    z-index: -1;
+    border: 2px solid #1e90ff;
+    border-radius: 5%;
+    filter: blur(3px);
+    box-shadow: 0 0 30px #1e90ff;
+    opacity: 0.7;
+    animation: blink 3s alternate infinite;
+    animation: rotate 5s linear infinite;
+}
+
+#home .container {
+    width: 50%;
+    border-radius: 2%;
+    border: 2px solid #1e90ff;
+    box-shadow: 0 0 15px #1e90ff;
+    margin-left: 2%;
+    height: fit-content;
+    animation: blink 3s alternate infinite;
+}
+
+#home p {
+    width: 60%;
+}
+
+.about-content {
+    width: 50%;
+    margin-left: 25%;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2%;
+    border: 2px solid #1e90ff;
+    box-shadow: 0 0 30px #1e90ff;
+    animation: changecolor 2s linear infinite;
+}
+
+.coding-skills {
+    width: 40%;
+    margin-right: 3%;
+    height: fit-content;
+}
+
+.professional-skills {
+    width: 40%;
+    height: fit-content;
+}
+
+h2 span {
+    color: #1e90ff;
+}
+
+.journey-content,
+.skills-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education {
+    margin-right: 3%;
+    height: fit-content;
+    text-align: left;
+}
+
+.Experience {
+    height: fit-content;
+}
+
+.education,
+.Experience,
+.professional-skills,
+.coding-skills {
+    border-radius: 2%;
+    border: 3px solid #1e90ff;
+    box-shadow: 0 0 50px #1e90ff;
+    box-sizing: border-box;
+    animation: changecolor 4s alternate infinite;
+}
+
+.about-image img {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #1c334b;
+    box-shadow: 0 0 15px #1e90ff;
+}
+
+.skills-content .progress-bar {
+    background-color: #173a5e;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.skills-content .progress {
+    background-color: #1e90ff;
+    height: 10px;
+    border-radius: 50px;
+}
+
+.education,
+.skills li {
+    list-style: none;
+}
+
+form {
+    text-align: left;
+    border: 2px solid #1e90ff;
+    box-shadow: 0 0 15px #1e90ff;
+    animation: blink 3s alternate infinite;
+}
+
+.form-group {
+    margin: 20px 0;
+}
+
+.form-group label {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 90%;
+    color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #1e90ff;
+    border-radius: 5px;
+    background-color: #1c334b;
+    animation: blink 3s alternate infinite;
+}
+
+form button {
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #333;
+}
+
+@keyframes rotate {
+    0% {
+        clip-path: inset(0 0 100% 0);
+    }
+    25% {
+        clip-path: inset(0 0 0 0);
+    }
+    50% {
+        clip-path: inset(0 0 0 100%);
+    }
+    75% {
+        clip-path: inset(0 0 0 0);
+    }
+    100% {
+        clip-path: inset(0 0 100% 0);
+    }
+}
+
+@keyframes changecolor {
+    0% {
+        border-image: linear-gradient(45deg, red, yellow, green, blue, purple, aqua)1;
+    }
+    25% {
+        border-image: linear-gradient(405deg, green, red, yellow, blue, purple, aqua)1;
+    }
+    50% {
+        border-image: linear-gradient(45deg, red, yellow, green, blue, purple, aqua)1;
+    }
+    75% {
+        border-image: linear-gradient(45deg, blue, purple, red, aqua, green, yellow)1;
+    }
+    100% {
+        border-image: linear-gradient(405deg, green, red, yellow, blue, purple, aqua)1;
+    }
+}
+
+@keyframes backgroundcolor {
+    0% {
+        background: linear-gradient(45deg, red, yellow, green, blue, purple, aqua)border-box;
+    }
+    100% {
+        background: linear-gradient(45deg, green, red, blue, purple, aqua, yellow)border-box;
+    }
+}
+
+@keyframes blink {
+    0% {
+        border-color: red;
+    }
+    25% {
+        border-color: yellow;
+    }
+    50% {
+        border-color: green;
+    }
+    75% {
+        border-color: blue;
+    }
+    100% {
+        border-color: purple;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    #nav-links {
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        right: 0;
+        background-color: #080f1f;
+        position: absolute;
+        z-index: 1;
+        border: 3px solid #1e90ff;
+        animation: changecolor 2s linear infinite;
+        padding: 5px 0 5px 0;
+        box-shadow: 0 0 15px #1e90ff;
+    }
+    #nav-links.active {
+        display: block;
+    }
+    #home {
+        text-align: center;
+        display: block;
+        justify-content: center;
+    }
+    #about {
+        display: grid;
+        justify-content: center;
+    }
+    .journey-content {
+        display: block;
+        justify-content: center;
+        width: 100%;
+    }
+    .skills-content {
+        display: block;
+        justify-content: center;
+        width: 100%;
+    }
+    .education {
+        margin-bottom: 2%;
+    }
+    .coding-skills {
+        width: 100%;
+        margin-right: 3%;
+        height: fit-content;
+        margin-bottom: 2%;
+    }
+    .professional-skills {
+        width: 100%;
+        height: fit-content;
+    }
+    .about-content {
+        width: 90%;
+        margin-left: 2%;
+        display: grid;
+    }
+    #home .container {
+        width: 90%;
+        border-radius: 2%;
+        border: 2px solid #1e90ff;
+        box-shadow: 0 0 15px #1e90ff;
+        margin-left: 2%;
+        height: fit-content;
+        animation: blink 3s alternate infinite;
+    }
+    #home img {
+        width: 90%;
+        height: 55vh;
+        z-index: -1;
+        border: 2px solid #1e90ff;
+        border-radius: 50% 50% 10% 10%;
+        filter: blur(3px);
+        opacity: 0.3;
+        box-shadow: 0 0 30px #1e90ff;
+        animation: blink 3s alternate infinite;
+    }
+    #menu-button {
+        font-size: 20px;
+        display: block;
+        background: transparent;
+        box-shadow: 0 0 50px #1e90ff;
+    }
+}
